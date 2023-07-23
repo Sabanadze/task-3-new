@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    height: 96px;
+    margin: 0 130px;
+}
+header ul {
+    display: flex;
+}
+header .middle-link {
+    margin: 0 121px;
+}
+header .link {
+ color:#2414DB;
+}
+header .active-link {
+ color:#F50808;
+}
+header a {
+    font-size: 20px;
+}
+article .home-text {
+    max-width: 780px;
+    height: 116px;
+    margin: 120px 530px 120px 130px;
+}
+article .text {
+    color:  #17326E;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+article .text1 {
+    color: #090346;
+    font-size: 20px;
+}
+article .about-text {
+    max-width: 780px;
+    height: 188px;
+    margin: 120px 530px 120px 130px;
+}
+article .about {
+    color: #19126B;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+article .contact-us {
+    max-width: 780px;
+    height: 92px;
+    margin: 120px 530px 120px 130px;
+}
+section {
+    background: #EBEBF0;
+    max-width: 1440px;
+}
+.cars {
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars .middle {
+    margin: 0 20px;
+}
+.our-history {
+    height: 516px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+.history {
+    width: 519px;
+    height: 260px;
+    margin-left: 130px;
+}
+.section-text {
+    color: #19126B;
+    font-size: 36px;
+    margin-bottom: 24px; 
+}
+.section-text1 {
+    color: #090346;
+    font-size: 20px;
+}
+.old-ford {
+    margin-right: 130px;
+}
+.contact-info {
+    max-height: 546px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 78px;
+    /* align-items: center; */
+}
+.contact {
+    /* display: flex; */
+    width: 323px;
+height: 142px;
+}
+iframe {
+    padding-bottom: 94px;
+}
+.color-aqua {
+    color: #0D69A9;
+}
+.title { 
+color: #19126B;
+font-size: 36px;
+margin-bottom: 24px;
+}
+.item {
+    display: flex;
+    color: #000000;
+    font-style: normal;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #19126B;
+    height: 161px;
+    max-width: 1440px;
+}
+footer ul {
+    display: flex;
+    margin-left: 130px;
+}
+footer .copyright {
+    color: #FFFFFF;
+    margin-right: 130px;
+}
+footer li {
+    margin: 0 20px;
+}
